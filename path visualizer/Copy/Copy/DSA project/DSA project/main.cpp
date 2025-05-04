@@ -38,7 +38,7 @@ PathfindingAlgorithm createPathfindingAlgorithm(const std::string& algorithmName
                 return path;
             };
     }
-   
+   //different options
     else if (algorithmName == "A*") {
         return [](const std::vector<std::vector<Node>>& maze,
             const sf::Vector2i& start,
