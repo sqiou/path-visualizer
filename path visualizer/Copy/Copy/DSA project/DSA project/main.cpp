@@ -15,6 +15,8 @@
 #include "pathfinding.h"
 
 
+
+//Different algos
 PathfindingAlgorithm createPathfindingAlgorithm(const std::string& algorithmName) {
     if (algorithmName == "BFS") {
         return [](const std::vector<std::vector<Node>>& maze,
